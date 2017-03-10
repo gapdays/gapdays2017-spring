@@ -1,0 +1,136 @@
+---
+layout: page
+title: Registration
+registration_state: notyet
+form_api_token: 7cf8d4aaaffb2f66929755918473dbf7
+email: gapdays2017-fall@gapdays.de
+---
+
+{% case page.registration_state %}
+{% when 'notyet' %}
+<p class="message">Registration will be open starting from the 20th of March, 2017</p>
+
+{% when 'closed' %}
+<p class="message">Registration is closed.</p>
+
+{% when 'open' %}
+<p class="message">Registration is open.</p>
+
+<p>
+You can use this form to register for the {{ site.title }}.
+</p>
+
+<p>
+If you any questions
+regarding registration or in general, feel free to
+<a href="mailto:{{page.email}}">contact us via email</a>.
+</p>
+<form action="http://getsimpleform.com/messages?form_api_token={{page.form_api_token}}" method="post">
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="name">Name <span class="form-field-req">*</span></label>
+  </div>
+  <input type="text" size="60" maxlength="80" name="name" autofocus required />
+  <!-- autofocus with fallback for older browsers -->
+  <script>
+    if (!("autofocus" in document.createElement("input"))) {
+      document.getElementById("q").focus();
+    }
+  </script>
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="email">Email <span class="form-field-req">*</span></label>
+  </div>
+  <input type="email" size="60" maxlength="80" name="email" required />
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="affiliation">Affiliation</label>
+  </div>
+  <div class="form-field-description">
+    Please enter the name of your home university, institute etc., if any. 
+  </div>
+  <input type="text" size="60" maxlength="80" name="affiliation" />
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="arrival_date">Arrival date <span class="form-field-req">*</span></label> 
+  </div>
+  <div class="form-field-description">
+    Please select the day of arrival.
+  </div>
+  <select name="arrival.date" id="arrival_date" required>
+    <option value="Tuesday 29 Aug" selected="selected">Tuesday 29 or before</option>
+    <option value="Wednesday 30 Aug">Wednesday 30 Aug</option>
+    <option value="Thursday 31 Aug">Thursday 31 Aug</option>
+    <option value="Friday 1 Sep">Friday 1 Sep</option>
+    <option value="Saturday 2 Sep">Saturday 2 Sep</option>
+    <option value="Sunday 3 Sep">Sunday 3 Sep</option>
+    <option value="Monday 4 Sep">Monday 4 Sep</option>
+    <option value="Tuesday 5 Sep">Tuesday 5 Sep</option>
+    <option value="Wednesday 6 Sep">Wednesday 6 Sep</option>
+    <option value="Thursday 7 Sep">Thursday 7 Sep</option>
+    <option value="Friday 8 Sep">Friday 8 Sep</option>
+  </select>
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="departure_date">Departure date <span class="form-field-req">*</span></label> 
+  </div>
+  <div class="form-field-description">
+    Please select the day of departure.
+  </div>
+  <select name="departure.date" id="departure_date" required>
+    <option value="Wednesday 30 Aug">Wednesday 30 Aug</option>
+    <option value="Thursday 31 Aug">Thursday 31 Aug</option>
+    <option value="Friday 1 Sep">Friday 1 Sep</option>
+    <option value="Saturday 2 Sep">Saturday 2 Sep</option>
+    <option value="Sunday 3 Sep">Sunday 3 Sep</option>
+    <option value="Monday 4 Sep">Monday 4 Sep</option>
+    <option value="Tuesday 5 Sep">Tuesday 5 Sep</option>
+    <option value="Wednesday 6 Sep">Wednesday 6 Sep</option>
+    <option value="Thursday 7 Sep">Thursday 7 Sep</option>
+    <option value="Friday 8 Sep" selected="selected">Friday 8 Sep</option>
+    <option value="Saturday 9 Sep">Saturday 9 Sep or later</option>
+  </select>
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="accommodation">Accommodation</label>
+  </div>
+  <div class="form-field-description">
+    You will have to book your accommodation yourself.
+    We recommend the <a href="http://www.johanneshoehe.de/">Hotel Johanneshöhe</a>.
+    We will try to organize a reduced rate there.
+  </div>
+<!-- 
+  <input type="text" size="60" maxlength="180" name="accommodation" />
+ -->
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="presentation">Comments</label>
+  </div>
+  <div class="form-field-description">
+    Here you any comments, questions or wishes
+    regarding the workshop.  
+  </div>
+  <textarea name="comments" rows="10" cols="60"></textarea>
+</div>
+
+<input type='hidden' name='redirect_to' value='{{ site.url }}{{ site.baseurl }}/thank-you' />
+
+<div class="form-field">
+  <input type="submit" value="Register!" />
+</div>
+
+</form>
+{% endcase %}
