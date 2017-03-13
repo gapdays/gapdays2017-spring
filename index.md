@@ -27,7 +27,7 @@ More detailed information can be found on [the program page]({{ site.baseurl }}/
 
 ## Registering and stay
 
-The workshop will take place at the University of Siegen. Information about the
+The workshop will take place at the {{ site.location }}. Information about the
 exact location and accommodation options
 can be found on [the location page]({{ site.baseurl }}/location).
 
@@ -35,8 +35,8 @@ can be found on [the location page]({{ site.baseurl }}/location).
 
 If you have questions or suggestions, please contact the organizers:
 
-* [Mohamed Barakat](mailto:mohamed.barakat@uni-siegen.de)
-* [Max Horn](mailto:max.horn@math.uni-giessen.de)
+* [Alice Niemeyer](mailto:alice.niemeyer@mathb.rwth-aachen.de)
+* [Frank Lübeck](mailto:frank.luebeck@math.rwth-aachen.de)
 
 ## Sponsors
 
