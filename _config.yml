@@ -11,4 +11,4 @@ baseurl:          /gapdays2017-spring
 
 
 exclude: [ "LICENSE.hyde.md", "README.hyde.md", "program.*", "misc" ]
-include: [ "program.pdf" ]
+include: [ "program.md", "program.pdf" ]
