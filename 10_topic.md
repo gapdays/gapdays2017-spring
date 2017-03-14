@@ -6,14 +6,14 @@ title: Main topic
 ## Matrices and matrix objects in GAP
 
 
-Originally, matrices in GAP where introduced  as lists of lists of equal
+Originally, matrices in GAP were introduced  as lists of lists of equal
 length with entries in a (usually common) ring. Advantages of this setup
 are simplicity and flexibility.
 
 But there are also disadvantages, for example:
 
  - it can be expensive to find out if a GAP object is a matrix
- - it  is easy  to  fall  into efficiency  traps  related  to GAPs  type
+ - it  is easy  to  fall  into efficiency  traps  related  to GAP's type
    determination of nested lists
  - one cannot store  meta-information about a matrix in a  list of lists
    (e.g., a ground ring, or various properties and attributes)
@@ -27,7 +27,7 @@ But there are also disadvantages, for example:
 There exists plans, descriptions and code for *matrix objects* in the 
 GAP library. Goals of this meeting could be:
 
- - to clearify open points in the usage interface (API) of such objects
+ - to clarify open points in the usage interface (API) of such objects
  - to document this API
  - to implement  (or finish  partial implementations)  of some  types of
    matrices according to the API

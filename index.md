@@ -22,7 +22,7 @@ topic](10_topic/) page for more details.
 
 Therefore, this  meeting is mainly  intended for developers of  core GAP
 who are interested in this  main topic. Nevertheless, other participants
-who want to contribute are also welcome. And, of course, suggestions for
+who want to contribute are most welcome. And, of course, suggestions for
 further topics are welcome as well.
 
 See  [GAP   Days  Fall   2017](http://gapdays.de/gapdays2017-fall/)  for
