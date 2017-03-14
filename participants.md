@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Participants
+title: Participants (preliminary)
 ---
 
 <!--[![Group photo]({{ site.baseurl }}/photos/groupphoto-gapdays2017-spring_thumb.jpg "Group photo")]({{ site.baseurl }}/photos/groupphoto-gapdays2017-spring.jpg)-->
@@ -8,7 +8,9 @@ title: Participants
 <ol>
 {% for p in site.data.participants %}
   <li>
+    {% if p.url != null %} <a href="{{p.url}}">{% endif %}
     <strong>{{ p.name }}</strong>
+    {% if p.url != null %} </a>{% endif %}
     {% if p.affiliation != null %} ({{ p.affiliation }}){% endif %}
     {% if p.links != null %}
         {% for item in p.links %}

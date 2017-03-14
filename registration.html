@@ -21,11 +21,11 @@ You can use this form to register for the {{ site.title }}.
 </p>
 
 <p>
-If you any questions
+If you have any questions
 regarding registration or in general, feel free to
 <a href="mailto:{{page.email}}">contact us via email</a>.
 </p>
-<form action="http://getsimpleform.com/messages?form_api_token={{page.form_api_token}}" method="post">
+<form action="http://www.math.rwth-aachen.de/~Frank.Luebeck/generic/mailform.html" method="post">
 
 <div class="form-field">
   <div class="form-field-title">
@@ -45,6 +45,16 @@ regarding registration or in general, feel free to
     <label for="email">Email <span class="form-field-req">*</span></label>
   </div>
   <input type="email" size="60" maxlength="80" name="email" required />
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="affiliation">Homepage</label>
+  </div>
+  <div class="form-field-description">
+    Please enter the URL of your homepage (if available). 
+  </div>
+  <input type="text" size="60" maxlength="80" name="url" />
 </div>
 
 <div class="form-field">
@@ -96,27 +106,36 @@ regarding registration or in general, feel free to
     <label for="accommodation">Accommodation</label>
   </div>
   <div class="form-field-description">
-    You will have to book your accommodation yourself.
-    We recommend the <a href="http://www.johanneshoehe.de/">Hotel Johanneshöhe</a>.
-    We will try to organize a reduced rate there.
+    You will have to book your accommodation yourself, 
+    see <a href="../location/">here</a>.
   </div>
-<!-- 
-  <input type="text" size="60" maxlength="180" name="accommodation" />
- -->
 </div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="affiliation">Expenses</label>
+  </div>
+  <div class="form-field-description">
+     We can cover travel expenses. If possible, indicate here an estimate of
+     your travel and accomodation costs.
+  </div>
+  <input type="text" size="60" maxlength="80" name="expenses" />
+</div>
+
+
 
 <div class="form-field">
   <div class="form-field-title">
     <label for="presentation">Comments</label>
   </div>
   <div class="form-field-description">
-    Here you any comments, questions or wishes
+    Room for comments, questions or wishes
     regarding the workshop.  
   </div>
   <textarea name="comments" rows="10" cols="60"></textarea>
 </div>
 
-<input type='hidden' name='redirect_to' value='{{ site.url }}{{ site.baseurl }}/thank-you' />
+<input type='hidden' name='token' value='GAPDaysMatricesSpring17'/>
 
 <div class="form-field">
   <input type="submit" value="Register!" />

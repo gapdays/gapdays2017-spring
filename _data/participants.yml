@@ -1,23 +1,31 @@
 - name: Jan De Beule
+  url: http://homepages.vub.ac.be/~jdbeule/indexen.html
   affiliation: Vrije Universiteit Brussel
 
 - name: Sebastian Gutsche
+  url: https://wwwb.math.rwth-aachen.de/~gutsche/
   affiliation: University of Siegen
 
 - name: Max Horn
+  url: https://www.uni-giessen.de/fbz/fb07/fachgebiete/mathematik/mathematik/ags/algebra/personen/prof/horn
   affiliation: JLU Gießen
 
 - name: Christopher Jefferson
+  url: http://caj.host.cs.st-andrews.ac.uk/
   affiliation: University of St Andrews
 
 - name: Frank Lübeck
+  url: http://www.math.rwth-aachen.de/~Frank.Luebeck/
   affiliation: RWTH Aachen University
 
 - name: Alice Niemeyer
+  url: https://wwwb.math.rwth-aachen.de/Mitarbeiter/niemeyer.php
   affiliation: RWTH Aachen University
 
 #- name: Markus Pfeiffer
+#  url: https://www.morphism.de/~markusp/
 #  affiliation: University of St Andrews
 
 - name: Sergio Siccha
+  url: https://wwwb.math.rwth-aachen.de/Mitarbeiter/siccha.php
   affiliation: RWTH Aachen University

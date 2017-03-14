@@ -102,6 +102,11 @@ a.sidebar-nav-item:focus {
   font-size: 75%;
 }
 
+.sidebar-nav-item.micro {
+  color: rgba(255,255,255,.7);
+  font-size: 40%;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the

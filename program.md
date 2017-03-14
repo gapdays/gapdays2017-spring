@@ -3,11 +3,15 @@ layout: page
 title: Program
 ---
 
+<!--
 #### Please look at [the Wiki for details](https://github.com/gapdays/gapdays2017-spring/wiki).
+-->
 
+## Times
 
-## Workshop
-* Start: Monday May 29th at 10 am
-* Finish: Friday June 2nd afternoon
+ - Start: Monday May 29th at 10 am
+ - Finish: Friday June 2nd afternoon
 
-The focus of the workshop will be on ...
+Suggestions for concrete topics and times are welcome. We may also fill in
+more details on this page when the workshop has started.
+

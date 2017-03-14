@@ -7,23 +7,27 @@ title: Home
 
 ## {{ site.description }}<br> {{ site.location }}
 
-## GAP in general
+## What are GAP Days
 
-[GAP](http://www.gap-system.org/) Days are meetings where developers and users
-with GAP programming experience are invited to influence the future
-development of GAP. To streamline each meeting the organizers usually suggest a few
-main topics to work on during the week.
+[GAP](http://www.gap-system.org/) Days are meetings where developers and
+users  with GAP  programming  experience are  invited  to influence  the
+future development  of GAP.  To streamline  each meeting  the organizers
+usually suggest a few main topics to work on during the week.
 
-The meetings are also suitable for advertising recent developments in core GAP
-and packages via short talks. However, the focus of the meeting is on code
-development, with talks only playing a minor role.
-As enough GAP experts will be around for technical support, the
-meetings offer good opportunities for people to work on their own
-packages. At the end of the week, we would be happy to hear about any progress you made.
+## Main topic: Matrices in GAP
 
-## {{ site.title }}
+During these  GAP Days we  want to  concentrate on a  somewhat technical
+topic  in  the  core  part  of GAP:  *matrix  objects*.  See  the  [Main
+topic](10_topic/) page for more details.
 
-More detailed information can be found on [the program page]({{ site.baseurl }}/program).
+Therefore, this  meeting is mainly  intended for developers of  core GAP
+who are interested in this  main topic. Nevertheless, other participants
+who want to contribute are also welcome. And, of course, suggestions for
+further topics are welcome as well.
+
+See  [GAP   Days  Fall   2017](http://gapdays.de/gapdays2017-fall/)  for
+further  GAP Days  which  address    wider  ranges  of participants  and
+topics.
 
 ## Registering and stay
 
@@ -33,10 +37,14 @@ can be found on [the location page]({{ site.baseurl }}/location).
 
 ## <a name="contact"></a> Contact
 
-If you have questions or suggestions, please contact the organizers:
+If you have questions or suggestions, please contact the organizers 
 
-* [Alice Niemeyer](mailto:alice.niemeyer@mathb.rwth-aachen.de)
-* [Frank Lübeck](mailto:frank.luebeck@math.rwth-aachen.de)
+
+ - [Alice Niemeyer](https://wwwb.math.rwth-aachen.de/Mitarbeiter/niemeyer.php)
+ - [Frank Lübeck](http://www.math.rwth-aachen.de/~Frank.Luebeck/)
+
+by email to
+[gapdays2017-spring@gapdays.de](mailto:gapdays2017-spring@gapdays.de).
 
 ## Sponsors
 
