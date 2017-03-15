@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Participants (preliminary)
+title: Participants
 ---
 
 <!--[![Group photo]({{ site.baseurl }}/photos/groupphoto-gapdays2017-spring_thumb.jpg "Group photo")]({{ site.baseurl }}/photos/groupphoto-gapdays2017-spring.jpg)-->
