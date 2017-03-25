@@ -2,9 +2,9 @@
 #  url: http://homepages.vub.ac.be/~jdbeule/indexen.html
 #  affiliation: Vrije Universiteit Brussel
 
-#- name: Sebastian Gutsche
-#  url: https://wwwb.math.rwth-aachen.de/~gutsche/
-#  affiliation: University of Siegen
+- name: Sebastian Gutsche
+  url: https://wwwb.math.rwth-aachen.de/~gutsche/
+  affiliation: University of Siegen
 
 - name: Max Horn
   url: https://www.uni-giessen.de/fbz/fb07/fachgebiete/mathematik/mathematik/ags/algebra/personen/prof/horn
@@ -29,3 +29,7 @@
 - name: Sergio Siccha
   url: https://wwwb.math.rwth-aachen.de/Mitarbeiter/siccha.php
   affiliation: RWTH Aachen University
+
+- name: Madeleine Whybrow
+  url: https://madeleinewhybrow.wordpress.com/
+  affiliation: Imperial College London
