@@ -39,4 +39,7 @@ GAP library. Goals of this meeting could be:
 A more detailed account of the current status was given by Max Horn in
 [this github issue](https://github.com/gap-system/gap/issues/945).
 
-
+Another source are old files by Max Neunhöffer: [see
+here](http://www.math.rwth-aachen.de/~Max.Neunhoeffer/for/Matrices/).
+In particular, there is a testing function we might want to look at (and
+adjust to a final API).
