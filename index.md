@@ -25,7 +25,7 @@ who are interested in this  main topic. Nevertheless, other participants
 who want to contribute are most welcome. And, of course, suggestions for
 further topics are welcome as well.
 
-See  [GAP   Days  Fall   2017](http://gapdays.de/gapdays2017-fall/)  for
+See  [GAP   Days  Fall   2017](https://www.gapdays.de/gapdays2017-fall/)  for
 further  GAP Days  which  address    wider  ranges  of participants  and
 topics.
 
@@ -52,4 +52,4 @@ This workshop is supported by [SFB-TRR 195](https://www.computeralgebra.de/sfb/)
 
 ## Previous GAP Days
 
-Please visit <http://gapdays.de/> for a list of all GAP days.
+Please visit <https://www.gapdays.de/> for a list of all GAP days.
